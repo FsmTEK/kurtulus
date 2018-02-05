@@ -1,10 +1,13 @@
-body{
+body {
     background-image: url("../gerek/lucas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    border:1px solid black;
-    margin: 0 auto;
-    background:pink;
+.ortala {
+
+    width: 200px;
+    height: 300px;
+    margin: 30px;
 
 }

@@ -17,9 +17,12 @@
     <link rel="stylesheet" href="../kurtulus/V/ana.css" type="text/css">
 </head>
 <body>
+<div class="ortala">
+
 <form action="C/ana.php" method="post">
     Kullanıcı Adı : <input type="text" name="kadi"/><br/>
     Şifre : <input type="password" name="sifre"/><br/>
     <input type="submit" value="gönder">
+    </div>
 </body>
 </html>
