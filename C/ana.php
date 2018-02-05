@@ -8,3 +8,15 @@
 $kadi=$_POST['kadi'];
 $sifre=$_POST['sifre'];
 echo  $kadi.'-'.$sifre;
+
+
+
+if ($username && $password) {
+
+
+
+} else{
+
+    echo "Yalnış Bilgi Girdiniz";
+    include ("index.php");
+}
