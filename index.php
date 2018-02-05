@@ -7,11 +7,5 @@
  */
 ?>
 <?php
-<form action="login.php method="post>
-Kullanıcı Adı : <imput type="text" name="username"/>
-    Şifre : <input type="password" name="password"/>
-    <input type="submit" value="gönder/">
-
-
-
+require_once 'v/index.php';
 ?>
