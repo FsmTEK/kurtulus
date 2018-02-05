@@ -5,6 +5,7 @@
  * Date: 5.02.2018
  * Time: 14:25
  */
+echo "<href src="lucas.jpg";
 ?>
 
 <form action="C/ana.php" method="post">

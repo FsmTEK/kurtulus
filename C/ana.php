@@ -11,7 +11,7 @@ echo  $kadi.'-'.$sifre;
 
 
 
-if ($username && $password) {
+if ($kadi=='admin' && $sifre=='123456') {
 
 
 
