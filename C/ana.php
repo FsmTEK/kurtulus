@@ -5,6 +5,6 @@
  * Date: 5.02.2018
  * Time: 14:42
  */
-$kadi=$_POST(kadi);
-$sifre=$_POST(sifre);
+$kadi=$_POST['kadi'];
+$sifre=$_POST['sifre'];
 echo  $kadi.'-'.$sifre;
