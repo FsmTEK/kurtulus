@@ -2,4 +2,10 @@ body{
     background-image: url("../gerek/lucas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+{
+    border:1px solid black;
+    margin: 0 auto;
+    width:960px;
+    background:pink;
+}
 }
