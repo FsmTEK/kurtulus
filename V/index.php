@@ -7,7 +7,7 @@
  */
 ?>
 
-<form action="login.php method="post>
+<form action="C/ana.php" method="post">
 Kullanıcı Adı : <imput type="text" name="username"/><br/>
     Şifre : <input type="password" name="password"/><br/>
     <input type="submit" value="gönder/">
