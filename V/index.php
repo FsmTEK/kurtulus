@@ -10,4 +10,4 @@
 <form action="C/ana.php" method="post">
 Kullanıcı Adı : <input type="text" name="kadi"/><br/>
     Şifre : <input type="password" name="sifre"/><br/>
-    <input type="submit" value="gönder/">
+    <input type="submit" value="gönder">
