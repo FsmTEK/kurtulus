@@ -8,6 +8,6 @@
 ?>
 
 <form action="C/ana.php" method="post">
-Kullanıcı Adı : <imput type="text" name="username"/><br/>
-    Şifre : <input type="password" name="password"/><br/>
+Kullanıcı Adı : <input type="text" name="kadi"/><br/>
+    Şifre : <input type="password" name="sifre"/><br/>
     <input type="submit" value="gönder/">
