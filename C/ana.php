@@ -10,7 +10,7 @@ $kullaniciadi=$_POST['kadi'];
 $sifre = $_POST['sifre'];
 
 if ($kullaniciadi=='admin' and $sifre=='336699'){
-    header("url=../V/admin.php");
+    header("Refresh:0; url=../V/admin.php");
 }else{
     echo ' Kullanıcı Adı veya Şifreniz Yanlış. Lütfen Düzeltip Tekrar Deneyiniz..';
     header("Refresh:5; url=../index.php");
