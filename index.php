@@ -6,4 +6,4 @@
  * Time: 14:25
  */
 require_once 'V/index.php';
-?>
+
