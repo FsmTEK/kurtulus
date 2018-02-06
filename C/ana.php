@@ -10,7 +10,7 @@ $kullaniciadi=$_POST['kadi'];
 $sifre = $_POST['sifre'];
 
 if ($kullaniciadi=='admin' and $sifre=='336699'){
-    echo 'Vay Hırto Şifre Doğru...';
+    include '../V/admin.php';
 }else{
     echo 'Aha Yanış Oldu Lan';
 }
