@@ -6,23 +6,29 @@
  * Time: 14:25
  */
 ?>
-<!doctype html>
-<html lang="tr">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Giriş Ekrani</title>
-    <link rel="stylesheet" href="../kurtulus/V/ana.css" type="text/css">
+    <meta charset="utf-8">
+
+    <title>GİRİŞ</title>
+    <link rel="stylesheet" href="foto.css">
 </head>
 <body>
-<div class="ortala">
+<div class="container">
 
-<form action="C/ana.php" method="post">
-    Kullanıcı Adı : <input type="text" name="kadi"/><br/>
-    Şifre : <input type="password" name="sifre"/><br/>
-    <input type="submit" value="gönder">
-    </div>
+    <img src="images/profil.jpg" width="200" height="200" />
+    <form>
+        <div class="form-input">
+            <input type="text" name="username" placeholder="Kullanıcı Adı">
+        </div>
+        <div class="form-input">
+            <input type="password" name="password" placeholder="Şifreniz">
+        </div>
+        <input type="submit" name="submit" value="Giriş" class="btn-giriş"><br/>
+        <a href="#">Şifrenizi Unuttunuz mu?</a>
+    </form>
+
+</div>
 </body>
 </html>
