@@ -12,5 +12,6 @@ $sifre = $_POST['sifre'];
 if ($kullaniciadi=='admin' and $sifre=='336699'){
     include '../V/admin.php';
 }else{
-    header("Refresh:3; url=../index.php");
+    echo ' Kullanıcı Adı veya Şifreniz Yanlış. Lütfen Düzeltip Tekrar Deneyiniz..';
+    header("Refresh:5; url=../index.php");
 }
