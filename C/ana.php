@@ -12,5 +12,5 @@ $sifre = $_POST['sifre'];
 if ($kullaniciadi=='admin' and $sifre=='336699'){
     include '../V/admin.php';
 }else{
-    header("Refresh:3; url=../V/index.php");
+    header("Refresh:3; url=../index.php");
 }
