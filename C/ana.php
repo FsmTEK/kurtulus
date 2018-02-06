@@ -6,7 +6,7 @@
  * Time: 14:42
  */
 
-$kullaniciadi='Falan Filan';
-$sifre = ' Bu Ne Lan';
+$kullaniciadi=$_POST['kadi'];
+$sifre = $_POST['sifre'];
 
 echo $kullaniciadi.'-'.$sifre;
