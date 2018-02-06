@@ -1,7 +1,7 @@
 body{
 
     margin: 0 auto;
-    background-image: url("images/images.jpg");
+    background-image: url("../resimler/images.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -19,7 +19,7 @@ body{
 }
 .container-img{
 
-    width:-120px;
+    width:120px;
     height: 120px;
     margin-top: -60px;
     margin-bottom: 30px;

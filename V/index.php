@@ -12,12 +12,12 @@
     <meta charset="utf-8">
 
     <title>GİRİŞ</title>
-    <link rel="stylesheet" href="ana.css">
+    <link rel="stylesheet" href="../gerek/css/ana.css">
 </head>
 <body>
 <div class="container">
 
-    <img src="images/profil.jpg" width="200" height="200" />
+    <img src="../gerek/resimler/profil.jpg" width="200px" height="200px" />
     <form>
         <div class="form-input">
             <input type="text" name="username" placeholder="Kullanıcı Adı">
