@@ -18,7 +18,7 @@
 <div class="container">
 
     <img style="margin: 20px;" src="gerek/resimler/profil.jpg" width="200px" height="200px" />
-    <form action="../C/ana.php" method="post">
+    <form action="C/ana.php" method="post">
         <div class="form-input">
             <input type="text" name="username" placeholder="Kullanıcı Adı">
         </div>
