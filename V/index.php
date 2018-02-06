@@ -17,7 +17,7 @@
 <body>
 <div class="container">
 
-    <img src="gerek/resimler/profil.jpg" width="200px" height="200px" />
+    <img style="margin: 20px;" src="gerek/resimler/profil.jpg" width="200px" height="200px" />
     <form>
         <div class="form-input">
             <input type="text" name="username" placeholder="Kullanıcı Adı">
