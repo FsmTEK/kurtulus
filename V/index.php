@@ -12,7 +12,7 @@
     <meta charset="utf-8">
 
     <title>GİRİŞ</title>
-    <link rel="stylesheet" href="foto.css">
+    <link rel="stylesheet" href="ana.css">
 </head>
 <body>
 <div class="container">
