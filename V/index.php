@@ -16,14 +16,14 @@
 </head>
 <body>
 <div class="container">
-
     <img style="margin: 20px;" src="gerek/resimler/profil.jpg" width="200px" height="200px" />
+
     <form action="C/ana.php" method="post">
         <div class="form-input">
-            <input type="text" name="username" placeholder="Kullanıcı Adı">
+            <input type="text" name="kadi" placeholder="Kullanıcı Adı">
         </div>
         <div class="form-input">
-            <input type="password" name="password" placeholder="Şifreniz">
+            <input type="password" name="sifre" placeholder="Şifreniz">
         </div>
         <input type="submit" name="submit" value="Giriş" class="btn-giriş"><br/>
         <a href="#">Şifrenizi Unuttunuz mu?</a>

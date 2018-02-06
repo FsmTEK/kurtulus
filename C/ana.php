@@ -6,4 +6,7 @@
  * Time: 14:42
  */
 
-echo 'Deneme Deneme';
+$kullaniciadi='Falan Filan';
+$sifre = ' Bu Ne Lan';
+
+echo $kullaniciadi.'-'.$sifre;
