@@ -9,4 +9,8 @@
 $kullaniciadi=$_POST['kadi'];
 $sifre = $_POST['sifre'];
 
-echo $kullaniciadi.'-'.$sifre;
+if ($kullaniciadi=='admin' and $sifre=='336699'){
+    echo 'Vay Hırto Şifre Doğru...';
+}else{
+    echo 'Aha Yanış Oldu Lan';
+}
