@@ -6,6 +6,3 @@
  * Time: 14:25
  */
 ?>
-<?php
-require_once 'v/index.php';
-?>
