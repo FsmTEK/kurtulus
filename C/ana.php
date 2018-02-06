@@ -5,4 +5,5 @@
  * Date: 5.02.2018
  * Time: 14:42
  */
-?>
+
+echo 'Deneme Deneme';
