@@ -10,7 +10,5 @@ $baglanti = mysqli_connect("localhost", "root", "");
 if (!$baglanti)
     exit("Bağlantı sağlanamadı.");
 
-mysqli_select_db("like");
 
-mysql_close();
 
