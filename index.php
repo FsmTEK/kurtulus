@@ -18,15 +18,15 @@
         <div class="logo">
             <i class="fa fa-sign-in"></i>
         </div>
-        <div class="welcome"><strong>Welcome,</strong> please login</div>
+        <div class="Hoşgeldiniz"><strong>Welcome,</strong> please login</div>
 
         <form class="form-horizontal login-form">
             <div class="form-group relative">
-                <input id="login_username" class="form-control input-lg" type="email" placeholder="Kullanıcı Adı" required>
+                <input id="Kullanıcı adını giriniz" class="form-control input-lg" type="email" placeholder="Kullanıcı Adı" required>
                 <i class="fa fa-user"></i>
             </div>
             <div class="form-group relative password">
-                <input id="login_password" class="form-control input-lg" type="password" placeholder="Şifre" required>
+                <input id="Giriş şifresi" class="form-control input-lg" type="password" placeholder="Şifre" required>
                 <i class="fa fa-lock"></i>
             </div>
             <div class="form-group">
@@ -36,7 +36,7 @@
                 <label><input type="checkbox"> Remember</label>
             </div>
             <div class="checkbox pull-right">
-                <label> <a class="forget" href="" title="forget">Forgot your password</a> </label>
+                <label> <a class="forget" href="" title="forget">Parolanızımı unuttunuz?</a> </label>
             </div>
         </form>
     </div>
