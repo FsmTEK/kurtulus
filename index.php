@@ -21,32 +21,23 @@
         </div>
         <div class="Hoşgeldiniz"><strong>Hoşgeldiniz,</strong> Lütfen giriş yapın</div>
 
-        <form class="form-horizontal login-form">
+        <form class="form-horizontal login-form" action="giris.php" method="post">
             <div class="form-group relative">
-                <input id="Kullanıcı adını giriniz" class="form-control input-lg" type="email" placeholder="Kullanıcı Adı" required>
+                <input name="kadi" class="form-control input-lg" type="email" placeholder="Kullanıcı Adı" required>
                 <i class="fa fa-user"></i>
             </div>
             <div class="form-group relative password">
-                <input id="Giriş şifresi" class="form-control input-lg" type="password" placeholder="Şifre" required>
+                <input  name="sifre" class="form-control input-lg" type="password" placeholder="Şifre" required>
                 <i class="fa fa-lock"></i>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg btn-block">Giriş</button>
+                <button type="submit"  name="gonder" class="btn btn-success btn-lg btn-block">Giriş</button>
             </div>
-            <div class="checkbox pull-left">
-                <label><input type="checkbox"> Remember</label>
-            </div>
-            <div class="checkbox pull-right">
-                <label> <a class="forget" href="" title="forget">Parolanızımı unuttunuz?</a> </label>
-            </div>
+
         </form>
     </div>
 
-    <h4 class="text-center">
-        <a target="_blank" href="https://codepen.io/Peeyush200/pen/apwXmL">
-            Check out another login form
-        </a>
-    </h4>
+
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
