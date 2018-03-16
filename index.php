@@ -23,7 +23,7 @@
 
         <form class="form-horizontal login-form" action="giris.php" method="post">
             <div class="form-group relative">
-                <input name="kadi" class="form-control input-lg" type="email" placeholder="Kullanıcı Adı" required>
+                <input name="kadi" class="form-control input-lg" type="text" placeholder="Kullanıcı Adı" required>
                 <i class="fa fa-user"></i>
             </div>
             <div class="form-group relative password">
