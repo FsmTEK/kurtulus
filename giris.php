@@ -5,4 +5,5 @@
  * Date: 16.03.2018
  * Time: 18:51
  */
-echo "burası giriş";
+$gelen=$_POST;
+print_r($gelen);
