@@ -18,7 +18,7 @@
         <div class="logo">
             <i class="fa fa-sign-in"></i>
         </div>
-        <div class="Hoşgeldiniz"><strong>Welcome,</strong> please login</div>
+        <div class="Hoşgeldiniz"><strong>Hoşgeldiniz,</strong> Lütfen giriş yapın</div>
 
         <form class="form-horizontal login-form">
             <div class="form-group relative">
