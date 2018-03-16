@@ -6,7 +6,7 @@
  * Time: 18:28
  */
 
-$baglanti = mysql_connect("localhost", "root", "root");
+$baglanti = mysqli_connect("localhost", "root", "");
 if (!$baglanti)
     exit("Bağlantı sağlanamadı.");
 
